@@ -22,7 +22,8 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
-[Your Gif](https://github.com/basss2024/web102_prework/raw/main/Lab0GIF.gif)
+![Lab0 GIF](https://github.com/basss2024/web102_prework/raw/main/Lab0GIF.gif)
+
 
 
 
