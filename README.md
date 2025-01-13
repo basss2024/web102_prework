@@ -23,7 +23,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src="https://github.com/basss2024/web102_prework/raw/main/Lab0GIF.gif" alt="Sea Monster Crowdfunding GIF" width="600">
+<img src="https://github.com/basss2024/web102_prework/raw/main/Lab0GIF(1).gif" alt="Sea Monster Crowdfunding GIF" width="600">
 
 
 
