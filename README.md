@@ -23,8 +23,9 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-![Your GIF](https://github.com/basss2024/web102_prework/raw/main/Lab0GIF.gif)
-<img src="https://github.com/basss2024/web102_prework/raw/main/Lab0GIF.gif" alt="Lab0 GIF" width="600">
+<img src="https://github.com/basss2024/web102_prework/raw/main/Lab0GIF.gif" alt="Sea Monster Crowdfunding GIF" width="600">
+
+
 
 
 
