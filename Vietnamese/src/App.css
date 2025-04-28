@@ -1,0 +1,124 @@
+/* Background */
+.container {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./assets/viet.jpg"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Header */
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+
+h2 {
+  font-size: 24px;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  margin-bottom: 15px;
+}
+
+/* Flashcard Styling */
+.flashcard {
+  width: 450px;
+  height: 250px;
+  perspective: 1000px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.flashcard-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.flashcard.flipped .flashcard-inner {
+  transform: rotateY(180deg);
+}
+
+.flashcard-front, .flashcard-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.flashcard-back {
+  transform: rotateY(180deg);
+}
+
+/* Input Box */
+.input {
+  padding: 12px;
+  margin-top: 15px;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  width: 320px;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Buttons */
+.button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #333;
+}
+
+/* Shuffle Button */
+.shuffle-button {
+  background-color: black;
+  color: white;
+  padding: 12px 18px;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.shuffle-button:hover {
+  background-color: #333;
+}
+
+/* Feedback Text */
+.feedback {
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+}

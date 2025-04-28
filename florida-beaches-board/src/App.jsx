@@ -24,7 +24,7 @@ const beaches = [
     location: "Clearwater, FL",
     description: "A vibrant beach with white sand and clear waters.",
     imageUrl: clearwaterbeach,
-    link: "https://www.visitstpeteclearwater.com/profile/clearwater-beach/158016",
+    link: "https://travel.usnews.com/Clearwater_Beach_FL/",
   },
   {
     name: "Delray Beach",

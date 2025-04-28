@@ -1,0 +1,29 @@
+body {
+  background: url("https://i.imgur.com/FVbgkjd.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 10px 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  color: white;
+  margin-right: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid rgba(255,255,255,0.2);
+  color: white;
+}
+
